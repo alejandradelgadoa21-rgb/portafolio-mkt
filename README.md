@@ -36,12 +36,15 @@ Trabajaremos sobre **el mismo sitio durante toda la unidad**.
 
 ### Formativa 01 — 30 pts
 Construir la página de inicio.
+*Entrega: miércoles 2 de septiembre a las 23:00 hrs.*
 
 ### Formativa 02 — 30 pts
 Completar el flujo del sitio.
+*Entrega: miércoles 9 de septiembre a las 23:00 hrs.*
 
 ### Parcial — 40 pts
 Mejorar, adaptar y publicar la versión final.
+*Entrega: 15 o 16 de septiembre hasta las 23:00 hrs.*
 
 **Total: 100 puntos**
 
@@ -64,6 +67,7 @@ Al finalizar el proyecto existirán, como mínimo, **9 commits** asociados a las
 
 # Formativa 01
 ## Mi primera página — 30 puntos
+**Fecha de entrega: miércoles 2 de septiembre a las 23:00 hrs.**
 
 ### Objetivo
 
@@ -114,6 +118,7 @@ Los **colores y tipografías son de libre elección**. Cada estudiante puede def
 
 # Formativa 02
 ## Mi sitio personal — 30 puntos
+**Fecha de entrega: miércoles 9 de septiembre a las 23:00 hrs.**
 
 ### Objetivo
 
@@ -206,6 +211,7 @@ Además:
 
 # Parcial
 ## Sitio web personal final — 40 puntos
+**Fecha de entrega: 15 o 16 de septiembre hasta las 23:00 hrs.**
 
 Ahora debemos convertir nuestro proyecto en un sitio **terminado**.
 
@@ -511,12 +517,15 @@ Antes de entregar verifica:
 
 ### Formativa 01
 **30 puntos**
+*Entrega: miércoles 2 de septiembre a las 23:00 hrs.*
 
 ### Formativa 02
 **30 puntos**
+*Entrega: miércoles 9 de septiembre a las 23:00 hrs.*
 
 ### Parcial
 **40 puntos**
+*Entrega: 15 o 16 de septiembre hasta las 23:00 hrs.*
 
 # 100 puntos
 
