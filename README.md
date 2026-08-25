@@ -63,6 +63,9 @@ En **cada entrega**:
 
 Al finalizar el proyecto existirán, como mínimo, **9 commits** asociados a las tres entregas.
 
+> [!IMPORTANT]
+> **Uso de Inteligencia Artificial:** Puedes usar la IA como una herramienta de apoyo para resolver dudas, entender errores o recibir orientación sobre cómo avanzar, pero no para generar el sitio completo. El objetivo de la actividad es que puedas comprender y explicar lo que estás construyendo. La profesora podrá solicitarte que expliques o modifiques partes de tu código para verificar tu aprendizaje
+
 ---
 
 # Formativa 01
@@ -99,6 +102,10 @@ Este contenedor central será parte de la identidad estructural del proyecto y d
 - Enlaces funcionando.
 
 Los **colores y tipografías son de libre elección**. Cada estudiante puede definir su propia propuesta visual.
+
+### Imagen de referencia
+
+![Imagen de referencia de la Formativa 01](img/referencia-formativa-01.png)
 
 ---
 
@@ -191,6 +198,14 @@ Además:
 - El CSS debe estar correctamente vinculado.
 - Las imágenes deben cargar correctamente.
 - Las rutas deben funcionar también en GitHub Pages.
+
+### Imágenes de referencia
+
+#### Proyectos
+![Imagen de referencia de Proyectos](img/referencia-formativa-02-proyectos.png)
+
+#### Contacto
+![Imagen de referencia de Contacto](img/referencia-formativa-02-contacto.png)
 
 ---
 
