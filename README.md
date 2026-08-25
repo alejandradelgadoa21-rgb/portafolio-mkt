@@ -43,7 +43,7 @@ Completar el flujo del sitio.
 *Entrega: miércoles 9 de septiembre a las 23:00 hrs.*
 
 ### Parcial — 40 pts
-Mejorar, adaptar y publicar la versión final.
+Agregar la librería de animaciones AOS, corregir las entregas anteriores y publicar la versión final.
 *Entrega: 15 o 16 de septiembre hasta las 23:00 hrs.*
 
 **Total: 100 puntos**
@@ -213,18 +213,13 @@ Además:
 ## Sitio web personal final — 40 puntos
 **Fecha de entrega: 15 o 16 de septiembre hasta las 23:00 hrs.**
 
-Ahora debemos convertir nuestro proyecto en un sitio **terminado**.
+En esta entrega final debemos consolidar y perfeccionar el proyecto de la unidad.
 
-No basta con agregar contenido.
+Los objetivos principales de la entrega parcial son:
 
-La entrega final debe demostrar que podemos:
-
-- construir,
-- organizar,
-- corregir,
-- adaptar,
-- versionar,
-- y publicar un sitio web.
+- **Incorporar la librería de animaciones AOS** en el sitio.
+- **Corregir y mejorar las entregas anteriores** (Formativa 01 y Formativa 02) basándose en la retroalimentación recibida.
+- Publicar la versión final del sitio web de forma óptima.
 
 ---
 
@@ -287,7 +282,7 @@ La entrega final debe incorporar al menos estados visuales para enlaces o botone
 # Librería de animaciones
 ## AOS — Animate On Scroll
 
-En la entrega parcial se deberá utilizar la librería **AOS (Animate On Scroll)**.
+En la entrega final se deberá utilizar la librería **AOS (Animate On Scroll)**.
 
 AOS permite agregar animaciones utilizando atributos directamente en nuestros elementos HTML.
 
