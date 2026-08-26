@@ -39,7 +39,7 @@ Para aprobar cada fase, el sitio debe cumplir obligatoriamente con:
 
 # Fases del proyecto
 
-El proyecto se desarrolla y evalúa en 3 fases incrementales:
+El proyecto se desarrolla y evalúa en 3 fases incrementales. Puedes consultar el calendario completo con los plazos oficiales vigentes en la [Guía de Fechas de Entrega](guias/fechas_entrega.md):
 
 | Fase | Entrega | Puntaje | Guía Detallada |
 |:---|:---|:---:|:---|
