@@ -1,4 +1,4 @@
-# Mi sitio web personal (Proyecto Incremental)
+# Mi portafolio personal (Proyecto Incremental)
 ## Evaluación de la unidad — HTML + CSS + GitHub (100 puntos totales)
 
 > [!NOTE]
