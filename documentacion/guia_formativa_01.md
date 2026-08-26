@@ -7,7 +7,7 @@
 ## 📸 Diseño de Referencia
 El resultado final que debes construir debe estructurarse de manera similar a este diseño de referencia:
 
-![Mockup de Referencia Formativa 01](../img/referencia-formativa-01.png)
+![Mockup de Referencia Formativa 01](img/referencia-formativa-01.png)
 
 > [!TIP]
 > **Personalización Visual:** Los colores, fondos, fuentes tipográficas e íconos utilizados en este diseño son **meramente referenciales**. Eres completamente libre de elegir y proponer tu propia combinación de colores y tipografías para reflejar tu marca e identidad personal. Lo importante en esta entrega es respetar la estructura del contenido y la correcta distribución de sus elementos.

@@ -39,13 +39,13 @@ Para aprobar cada fase, el sitio debe cumplir obligatoriamente con:
 
 # Fases del proyecto
 
-El proyecto se desarrolla y evalúa en 3 fases incrementales. Puedes consultar el calendario completo con los plazos oficiales vigentes en la [Guía de Fechas de Entrega](guias/fechas_entrega.md):
+El proyecto se desarrolla y evalúa en 3 fases incrementales. Puedes consultar el calendario completo con los plazos oficiales vigentes en la [Guía de Fechas de Entrega](documentacion/fechas_entrega.md):
 
 | Fase | Entrega | Puntaje | Guía Detallada |
 |:---|:---|:---:|:---|
-| **Formativa 01** | Página de inicio (`index.html`) con tarjeta de presentación | **30 pts** | [Ver Guía Formativa 01](guias/guia_formativa_01.md) |
-| **Formativa 02** | Navegación completa y páginas de Proyectos y Contacto | **30 pts** | [Ver Guía Formativa 02](guia_formativa_02.md) |
-| **Parcial (Final)** | Optimización semántica, Responsive Design, Efectos especiales con AOS o CSS | **40 pts** | [Ver Guía Parcial 01](guias/guia_parcial_01.md) |
+| **Formativa 01** | Página de inicio (`index.html`) con tarjeta de presentación | **30 pts** | [Ver Guía Formativa 01](documentacion/guia_formativa_01.md) |
+| **Formativa 02** | Navegación completa y páginas de Proyectos y Contacto | **30 pts** | [Ver Guía Formativa 02](documentacion/guia_formativa_02.md) |
+| **Parcial (Final)** | Optimización semántica, Responsive Design, Efectos especiales con AOS o CSS | **40 pts** | [Ver Guía Parcial 01](documentacion/guia_parcial_01.md) |
 | **Total** | | **100 pts** | |
 
 

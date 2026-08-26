@@ -40,7 +40,7 @@ Aquí tienes un ejemplo de cómo se aplica esta regla con una paleta de solo 3 c
 *   **30% (Negro):** Todos los títulos (`h1`, `h2`) y todo el texto de los párrafos.
 *   **10% (Azul):** Solo los botones de "Contactar" y los enlaces del menú.
 
-![Distribución de Colores (Regla 60-30-10)](../../img/distribucion_colores.jpg)
+![Distribución de Colores (Regla 60-30-10)](../img/distribucion_colores.jpg)
 
 ### 💡 Ejemplo con una Paleta Variada
 Cuando tienes una paleta más colorida o con múltiples tonos (como la mostrada abajo), la regla del **60-30-10** sigue aplicando para mantener el orden visual y evitar que tu web parezca un arcoíris desordenado:
@@ -48,7 +48,7 @@ Cuando tienes una paleta más colorida o con múltiples tonos (como la mostrada 
 *   **30% (Estructural):** Un tono fuerte y oscuro (como `Midnight Mirage #001F3F`) para definir la estructura de la interfaz, textos principales o fondos de tarjetas.
 *   **10% (Acento y Secundarios):** El color más vibrante se reserva estrictamente para botones de acción o llamados de atención (ej: `First Colors of Spring #DBE64C`), mientras que los colores secundarios y complementarios se aplican de forma muy controlada en etiquetas, iconos o pequeños textos informativos (ej: `Nuit Blanche #1E488F`, `Picture Book Green #00804C` y `Mantis #74C365`).
 
-![Distribución con Paleta Variada (Regla 60-30-10)](../../img/paleta_variada_distribucion.jpg)
+![Distribución con Paleta Variada (Regla 60-30-10)](../img/paleta_variada_distribucion.jpg)
 
 ### 🚨 La Regla de Oro: El Contraste y la Legibilidad
 El contraste es la diferencia de luminosidad entre el texto y el fondo sobre el cual está escrito. **Si el contraste es bajo, tu web será imposible de leer.**
@@ -69,7 +69,7 @@ La tipografía transmite la personalidad de tu sitio. Google Fonts es la mejor b
 
 Existen diferentes familias de fuentes. Cada una sirve para propósitos distintos dentro de una interfaz web:
 
-![Clasificación de Familias Tipográficas](../../img/tipografias_diseno.jpg)
+![Clasificación de Familias Tipográficas](../img/tipografias_diseno.jpg)
 
 #### 1. Sans-serif (Palo Seco)
 *   **Características:** Limpias, modernas, sin pequeños remates ni adornos en las esquinas.
@@ -101,4 +101,4 @@ Existen diferentes familias de fuentes. Cada una sirve para propósitos distinto
     *   `font-weight: 400` (Regular) para párrafos normales.
     *   `font-weight: 700` (Bold) para títulos fuertes.
 
-    ![Ejemplo de Jerarquía y Pesos Tipográficos](../../img/pesos_tipograficos.jpg)
+    ![Ejemplo de Jerarquía y Pesos Tipográficos](../img/pesos_tipograficos.jpg)
