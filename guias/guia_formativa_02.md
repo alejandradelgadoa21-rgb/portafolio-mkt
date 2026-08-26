@@ -161,5 +161,6 @@ Para alinear los proyectos y los elementos del formulario en tu CSS, te recomend
 1. Diseña y programa `proyectos.html` y `contacto.html`.
 2. Vincula el menú de navegación en las tres páginas.
 3. Asegura que los estilos en `style.css` mantengan la consistencia.
-4. Haz commits descriptivos de tu avance (ej. `git commit -m "feat: agregar pagina de proyectos con grid"`).
-5. Sube tu código a GitHub (`git push origin main`) y verifica que se publique correctamente en tu enlace de **GitHub Pages**.
+4. Haz commits descriptivos de tu avance (ej. `git commit -m "feat: agregar pagina de proyectos con grid"`) - recuerda que se evaluará el **último commit antes de la fecha límite**.
+5. Sube tu código a GitHub (`git push origin main`) y verifica que se publique correctamente en tu enlace de **GitHub Pages** (se evaluará el **último deployment** realizado).
+6. **Activa la opción "Deployments"** en el panel de detalles de tu repositorio de GitHub (dentro de la sección *About* -> clic en el engranaje ⚙️ -> marca la opción *Deployments* bajo *Include in the home page* -> *Save changes*). ¡Este paso es obligatorio para poder revisar tu historial de publicaciones!

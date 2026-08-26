@@ -26,8 +26,9 @@ Un sitio web personal de **3 páginas** con un **contenedor central** como base 
 
 Para aprobar cada fase, el sitio debe cumplir obligatoriamente con:
 - Estar subido a un repositorio público en **GitHub**.
-- Estar publicado y funcionando mediante **GitHub Pages**.
-- Tener un **mínimo de 3 commits nuevos** por entrega (mínimo 9 en total al final).
+- Estar publicado y funcionando mediante **GitHub Pages**. **Importante:** Se evaluará la versión del sitio correspondiente al **último deployment (publicación)** realizado antes de la fecha y hora límite de entrega.
+- Tener un **mínimo de 3 commits nuevos** por entrega (mínimo 9 en total al final). **Importante:** Se revisará el **último commit a la fecha y hora de entrega**.
+- **Configurar visualización de publicaciones:** Debes activar la opción **"Deployments"** en el panel de detalles del repositorio en GitHub (sección *About* -> Haz clic en el engranaje ⚙️ -> marca la opción *Deployments* bajo *Include in the home page* -> *Save changes*). Esto es indispensable para auditar tu historial de publicaciones.
 - Presentar rutas relativas y enlaces completamente funcionales.
 - Mantener los archivos ordenados (directorios `/css` e `/img`).
 
@@ -151,3 +152,4 @@ Para obtener el puntaje completo en el criterio de **Autoaprendizaje y Adaptaci�
 - [ ] ¿Incorporaste animaciones AOS en al menos 3 elementos?
 - [ ] ¿Tienes al menos 9 commits en total (mínimo 3 nuevos por fase)?
 - [ ] ¿Está publicado y actualizado en GitHub Pages?
+- [ ] ¿Activaste la opción **"Deployments"** en la configuración de **"About"** en tu repositorio de GitHub (haciendo clic en el engranaje ⚙️) para permitir a la profesora ver tu historial de publicación?

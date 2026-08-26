@@ -176,5 +176,6 @@ Antes de realizar tus commits y enviar tu tarea, comprueba los siguientes puntos
 - [ ] **Centrado Perfecto:** Al redimensionar la ventana del navegador o abrir el inspector móvil, la tarjeta se mantiene en el centro de la pantalla.
 - [ ] **Diseño Responsivo:** En celulares la tarjeta reduce su tamaño sin salirse de los bordes ni generar scroll horizontal.
 - [ ] **Interactividad CSS:** Al pasar el cursor sobre los enlaces o botones, se visualiza un cambio de estado claro (hover).
-- [ ] **Control de Versiones:** Realizaste al menos 3 commits descriptivos en Git y subiste el código a tu repositorio en GitHub.
-- [ ] **Despliegue:** El sitio web está publicado en GitHub Pages y funciona correctamente de manera online.
+- [ ] **Control de Versiones:** Realizaste al menos 3 commits descriptivos en Git y subiste el código a tu repositorio en GitHub (se evaluará el último commit antes del plazo de entrega).
+- [ ] **Despliegue:** El sitio web está publicado en GitHub Pages y funciona correctamente (se evaluará el último deployment realizado a la fecha de entrega).
+- [ ] **Configuración en GitHub:** Activaste la opción **"Deployments"** en la configuración de **"About"** en tu repositorio de GitHub (haciendo clic en el engranaje ⚙️ junto a *About* -> marca la casilla *Deployments* -> *Save changes*) para permitir la revisión del historial de publicación.

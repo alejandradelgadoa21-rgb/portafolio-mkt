@@ -160,8 +160,9 @@ Los elementos interactivos deben reaccionar suavemente a la acción del cursor d
 - [ ] ¿La animación AOS está funcionando correctamente en al menos 3 elementos?
 - [ ] ¿El repositorio de GitHub está ordenado con carpetas `/css` y `/img`?
 - [ ] ¿Agregaste la sección de "Desafíos y Autoaprendizaje" en tu README o bitácora para explicar qué aprendiste e investigaste solo?
-- [ ] ¿Tienes al menos 9 commits en total (mínimo 3 nuevos en esta entrega)?
-- [ ] ¿Verificaste el enlace final de tu GitHub Pages en tu celular o simulador del navegador?
+- [ ] ¿Tienes al menos 9 commits en total (mínimo 3 nuevos en esta entrega)? (Se revisará el último commit antes de la fecha límite).
+- [ ] ¿Verificaste el enlace final de tu GitHub Pages en tu celular o simulador del navegador? (Se revisará el último deployment realizado).
+- [ ] ¿Activaste la opción **"Deployments"** en la configuración de **"About"** en tu repositorio de GitHub (haciendo clic en el engranaje ⚙️ junto a *About* -> marca la casilla *Deployments* -> *Save changes*) para permitir la revisión del historial de publicación?
 
 ---
 
