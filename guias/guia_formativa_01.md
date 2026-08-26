@@ -162,7 +162,7 @@ Para complementar tu aprendizaje de HTML, CSS y Flexbox, te recomendamos consult
 ### 🧩 Guías y Juegos para Dominar Flexbox (Alineación)
 *   **[Flexbox Froggy - Aprende jugando](https://flexboxfroggy.com/#es):** Un divertido juego interactivo en el que guías a ranas escribiendo código Flexbox. Es la manera más didáctica de memorizar propiedades como `justify-content` y `align-items`.
 *   **[MDN Web Docs - Conceptos básicos de Flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox):** Artículo técnico de MDN para comprender a fondo los ejes principal y secundario.
-*   **[Diego Amorin - Guía Ilustrada de Flexbox CSS](https://diegoamorin.com/guia-completa-de-flexbox-css/):** Un recurso gráfico en español muy cómodo para consultar visualmente qué hace cada propiedad de Flexbox.
+*   **[Diego Amorin - Guía Ilustrada de Flexbox CSS](https://www.diegoamorin.com/flexbox/):** Un recurso gráfico en español muy cómodo para consultar visualmente qué hace cada propiedad de Flexbox.
 
 ---
 

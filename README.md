@@ -1,6 +1,10 @@
 # Mi sitio web personal (Proyecto Incremental)
 ## Evaluación de la unidad — HTML + CSS + GitHub (100 puntos totales)
 
+> [!NOTE]
+> **Enfoque Pedagógico: Habilidad de Autoaprendizaje y Adaptación**
+> En el mundo profesional del desarrollo de software y diseño, la capacidad de adaptación y el autoaprendizaje son fundamentales. A menudo te asignarán tareas o tecnologías de las que no eres especialista. Tu trabajo consistirá en investigar y encontrar la solución. Por ello, este proyecto evalúa activamente tu habilidad para utilizar de forma autónoma las guías de estudio provistas y los recursos externos para resolver tus dudas.
+
 ---
 
 # ¿Qué vamos a construir?
@@ -43,6 +47,21 @@ El proyecto se desarrolla y evalúa en 3 fases incrementales:
 | **Parcial (Final)** | Optimización semántica, Responsive Design, Efectos especiales con AOS o CSS | **40 pts** |
 | **Total** | | **100 pts** |
 
+
+---
+
+# 📘 ¿Cómo documentar tu Autoaprendizaje?
+
+Para obtener el puntaje completo en el criterio de **Autoaprendizaje y Adaptación** en tus entregas, debes demostrar cómo superaste de forma autónoma tus dudas o desafíos técnicos:
+
+1. **Comentarios en tu código:** Escribe comentarios breves indicando qué guías o recursos te ayudaron a implementar una sección.
+   * *Ejemplo HTML:* `<!-- Solucionado con la guía de HTML/CSS: Atributos obligatorios de formulario -->`
+   * *Ejemplo CSS:* `/* Aplicado desde guia_diseno.md: Regla de color 60-30-10 para la jerarquía visual */`
+2. **Registro de desafíos (Bitácora):** Agrega una sección llamada `## 🛠️ Desafíos y Autoaprendizaje` en tu propio repositorio (en el pie de tu index o en una bitácora) respondiendo brevemente a:
+   * **El problema:** ¿Qué error tenías o qué no sabías cómo hacer?
+   * **La investigación:** ¿Qué guía de estudio (`guia_diseno.md`, `guia_git.md`, `guia_html_css.md`, `guia_ia.md`), tutorial o documentación oficial consultaste?
+   * **La solución:** ¿Cómo lo resolviste finalmente?
+
 ---
 
 # Fase 1: Formativa 01 — Mi primera página (30 pts)
@@ -62,11 +81,12 @@ El proyecto se desarrolla y evalúa en 3 fases incrementales:
 
 | Criterio | Logro completo | Logro parcial | Logro insuficiente | Máx |
 | :--- | :--- | :--- | :--- | :---: |
-| **Estructura HTML** | HTML5 organizado y correcto. | Errores menores de estructura. | Incompleto o desorganizado. | **8** |
-| **Card de presentación** | Foto, descripción y 2 enlaces funcionales. | Faltan datos o enlaces rotos. | Incompleto o sin identificar. | **8** |
-| **CSS y diseño** | CSS externo con estilos propios y centrados. | Personalización muy limitada. | CSS ausente o mal vinculado. | **6** |
-| **Git & GitHub** | Mínimo 3 commits que evidencian avance. | Commits insuficientes. | Sin historial de commits. | **5** |
-| **GitHub Pages** | Publicado y accesible mediante URL. | Publicado con errores menores. | No publicado o inaccesible. | **3** |
+| **Estructura HTML** | HTML5 estructurado de forma ordenada y correcta. | Errores menores en etiquetas o anidación. | Incompleto o desorganizado. | **6** |
+| **Card de presentación** | Contenedor centralizado con avatar, descripción e intereses. | Faltan campos en la tarjeta de presentación. | Tarjeta incompleta o no centrada. | **6** |
+| **CSS y diseño** | CSS externo aplicando pautas de color y contraste de la `guia_diseno.md`. | Personalización limitada o sin seguir las pautas de color/contraste. | CSS ausente o mal vinculado. | **6** |
+| **Git & GitHub** | Mínimo 3 commits descriptivos aplicando pautas de la `guia_git.md`. | Commits con mensajes poco claros o menos de 3. | Sin historial de avance en Git. | **4** |
+| **GitHub Pages** | Publicado y accesible mediante URL funcional. | Cargado pero con errores de ruta o archivos. | No publicado o inaccesible. | **3** |
+| **Autoaprendizaje** | Resuelve un desafío técnico y documenta su proceso de búsqueda y solución (en código o bitácora). | Resuelve problemas autónomamente pero no documenta el proceso. | Depende enteramente de clases; no evidencia uso de guías. | **5** |
 
 ---
 
@@ -84,12 +104,13 @@ El proyecto se desarrolla y evalúa en 3 fases incrementales:
 
 | Criterio | Logro completo | Logro parcial | Logro insuficiente | Máx |
 | :--- | :--- | :--- | :--- | :---: |
-| **Navegación** | 3 páginas conectadas perfectamente. | Errores de consistencia o rutas. | Sin navegación funcional. | **5** |
-| **Proyectos** | 3 proyectos con texto e imagen. | Faltan elementos o imágenes. | Página muy incompleta. | **7** |
-| **Contacto** | Formulario completo y correcto. | Faltan campos o atributos. | Formulario no estructurado. | **6** |
-| **Consistencia** | Diseño y tipografías coherentes. | Inconsistencias entre páginas. | Diseños no relacionados. | **4** |
-| **Git & GitHub** | Mínimo 3 nuevos commits descriptivos. | Commits insuficientes. | Sin avance en Git. | **5** |
-| **Publicación** | Todo funcional en GitHub Pages. | Errores menores de carga. | No publicado o con errores graves. | **3** |
+| **Navegación** | 3 páginas conectadas perfectamente mediante menú común. | Errores de consistencia o enlaces rotos. | Sin navegación funcional. | **4** |
+| **Proyectos** | 3 proyectos estructurados con texto e imagen según guías. | Faltan elementos, descripciones o imágenes rotas. | Página ausente o muy incompleta. | **5** |
+| **Contacto** | Formulario completo con atributos avanzados (`required`, tipos correctos). | Faltan campos clave, etiquetas o atributos de validación. | Formulario no estructurado. | **5** |
+| **Consistencia** | Estilos, colores y tipografías coherentes en las 3 páginas. | Inconsistencias visuales marcadas entre páginas. | Diseños totalmente no relacionados. | **4** |
+| **Git & GitHub** | Mínimo 3 nuevos commits descriptivos del avance. | Commits insuficientes o sin descripciones claras. | Sin commits correspondientes a esta fase. | **4** |
+| **Publicación** | Todo funcional y actualizado en GitHub Pages. | Errores menores de carga en assets (imágenes, CSS). | No publicado en la web. | **3** |
+| **Autoaprendizaje** | Investiga y aplica autónomamente soluciones para maquetación o validación basándose en las guías y tutoriales. | Aplica soluciones pero no documenta qué guías o recursos utilizó. | No demuestra resolución autónoma de problemas técnicos. | **5** |
 
 ---
 
@@ -108,14 +129,15 @@ El proyecto se desarrolla y evalúa en 3 fases incrementales:
 
 | Criterio | Logro completo | Logro parcial | Logro insuficiente | Máx |
 | :--- | :--- | :--- | :--- | :---: |
-| **Estructura HTML** | HTML semántico y bien organizado. | Errores semánticos menores. | Errores estructurales graves. | **8** |
-| **CSS y presentación** | Diseño coherente y personalizado. | Inconsistencias visuales. | CSS descuidado o incompleto. | **5** |
-| **Funcionamiento** | Enlaces, imágenes y formulario correctos. | Errores menores en rutas o carga. | Errores graves de navegación. | **6** |
-| **Responsive** | Se adapta a mobile/desktop sin scroll horizontal. | Problemas menores de adaptación. | No adaptado / se rompe en mobile. | **5** |
-| **Librería AOS** | Mínimo 3 elementos animados de forma coherente. | Animaciones insuficientes o molestas. | AOS no implementado o no funciona. | **3** |
-| **Mejoras** | Corrección del feedback anterior. | Pocas mejoras aplicadas. | Sin cambios respecto a formativas. | **4** |
-| **Git y proceso** | Mínimo 3 nuevos commits detallados (9 total). | Pocos commits o no descriptivos. | Sin commits de cierre en Git. | **5** |
-| **Publicación** | Publicación impecable en GitHub Pages. | Errores menores en línea. | Inaccesible en la web. | **4** |
+| **Estructura HTML** | HTML5 semántico (`header`, `nav`, `main`, `footer`) y bien organizado. | Errores de semántica o estructuración. | Errores semánticos graves o ausencia de etiquetas HTML5. | **6** |
+| **CSS y presentación** | Diseño coherente, personalizado, pulido y limpio. | Inconsistencias visuales menores o estilos descuidados. | CSS incompleto o mal estructurado. | **4** |
+| **Funcionamiento** | Enlaces funcionales, imágenes con `alt` y formulario validado. | Errores menores en rutas o carga de assets. | Errores graves de navegación o enlaces rotos. | **5** |
+| **Responsive** | Se adapta a móviles y escritorios sin scroll horizontal ni textos cortados. | Problemas menores de adaptación en resoluciones específicas. | No adaptado / se rompe en vistas móviles. | **5** |
+| **Librería AOS** | Integración y personalización autónoma de AOS en al menos 3 elementos. | Implementación con errores menores de sincronización o sobrecargada. | AOS no implementado o no funciona. | **4** |
+| **Mejoras aplicadas** | Implementa mejoras según feedback previo y las sugerencias de las guías de estudio. | Pocas mejoras o correcciones aplicadas. | Ignora el feedback anterior y las guías. | **4** |
+| **Git y proceso** | Mínimo 3 nuevos commits descriptivos (mínimo 9 en todo el proceso). | Commits escasos o mensajes genéricos. | Sin historial estructurado de avance en Git. | **3** |
+| **Publicación** | Publicación final impecable en GitHub Pages. | Errores menores de carga remota de recursos. | Inaccesible en línea. | **3** |
+| **Autoaprendizaje y Documentación** | Documenta formalmente en el README o bitácora cómo investigó y resolvió de forma autónoma los desafíos de diseño responsivo o librerías externas. | Documenta superficialmente sus hallazgos y fuentes. | No evidencia aprendizaje autónomo ni documenta su proceso. | **6** |
 
 ---
 
