@@ -27,6 +27,9 @@ Para aprobar cada fase, el sitio debe cumplir obligatoriamente con:
 - Presentar rutas relativas y enlaces completamente funcionales.
 - Mantener los archivos ordenados (directorios `/css` e `/img`).
 
+> [!IMPORTANT]
+> **Uso de Inteligencia Artificial (IA) como asistente:** Se permite usar herramientas de IA como apoyo para resolver dudas puntuales o aprender a implementar elementos específicos (por ejemplo, preguntar *"¿cómo colocar un enlace?"* y seguir las instrucciones de la IA paso a paso). **Sin embargo, no puedes pedirle a la IA que construya todo tu proyecto**. La profesora lo notará rápidamente al evaluar tu código y al pedirte explicaciones de lo que construiste.
+
 ---
 
 # Fases del proyecto

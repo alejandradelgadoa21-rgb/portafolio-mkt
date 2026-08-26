@@ -5,9 +5,12 @@
 ---
 
 ## 📸 Diseño de Referencia
-El resultado final que debes construir y personalizar debe verse similar a este diseño:
+El resultado final que debes construir debe estructurarse de manera similar a este diseño de referencia:
 
 ![Mockup de Referencia Formativa 01](../img/referencia-formativa-01.png)
+
+> [!TIP]
+> **Personalización Visual:** Los colores, fondos, fuentes tipográficas e íconos utilizados en este diseño son **meramente referenciales**. Eres completamente libre de elegir y proponer tu propia combinación de colores y tipografías para reflejar tu marca e identidad personal. Lo importante en esta entrega es respetar la estructura del contenido y la correcta distribución de sus elementos.
 
 ---
 
@@ -147,7 +150,23 @@ Aquí tienes algunas sugerencias técnicas para lograrlo:
 
 ---
 
-## 🚀 5. Checklist de Verificación y Entrega
+## 📚 5. Tutoriales y Recursos de Apoyo Recomendados
+
+Para complementar tu aprendizaje de HTML, CSS y Flexbox, te recomendamos consultar y practicar con los siguientes recursos gratuitos en español:
+
+### 🌐 Fundamentos de HTML y CSS
+*   **[W3Schools - Tutoriales de HTML y CSS](https://www.w3schools.com/html/):** Una de las plataformas de aprendizaje más fáciles, intuitivas y populares del mundo. Cuenta con un editor interactivo para probar tu código en vivo (puedes traducir la página usando el selector de idioma en la esquina superior derecha).
+*   **[MDN Web Docs - Aprende desarrollo web](https://developer.mozilla.org/es/docs/Learn):** La referencia oficial y definitiva de la web. Te sugerimos revisar sus guías didácticas sobre [Estructurar la web con HTML](https://developer.mozilla.org/es/docs/Learn/HTML) y de [CSS básico](https://developer.mozilla.org/es/docs/Learn/CSS).
+*   **[freeCodeCamp - Certificación de Diseño Web](https://www.freecodecamp.org/espanol/):** Plataforma interactiva 100% gratuita. Su curso de **Diseño Web Adaptable** te enseña de forma práctica escribiendo código directamente desde el navegador.
+
+### 🧩 Guías y Juegos para Dominar Flexbox (Alineación)
+*   **[Flexbox Froggy - Aprende jugando](https://flexboxfroggy.com/#es):** Un divertido juego interactivo en el que guías a ranas escribiendo código Flexbox. Es la manera más didáctica de memorizar propiedades como `justify-content` y `align-items`.
+*   **[MDN Web Docs - Conceptos básicos de Flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox):** Artículo técnico de MDN para comprender a fondo los ejes principal y secundario.
+*   **[Diego Amorin - Guía Ilustrada de Flexbox CSS](https://diegoamorin.com/guia-completa-de-flexbox-css/):** Un recurso gráfico en español muy cómodo para consultar visualmente qué hace cada propiedad de Flexbox.
+
+---
+
+## 🚀 6. Checklist de Verificación y Entrega
 
 Antes de realizar tus commits y enviar tu tarea, comprueba los siguientes puntos:
 
