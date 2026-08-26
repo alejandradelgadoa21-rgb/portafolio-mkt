@@ -33,6 +33,13 @@ No basta con elegir colores bonitos, también hay que saber qué rol cumple cada
 | **Color Primario** | **30%** (Estructural) | Define el tono general del sitio y los textos principales. | Títulos (`h1`), textos del menú, subtítulos. |
 | **Color Secundario** | **10% - 15%** | Se usa para dar jerarquía a textos o elementos de menor relevancia. | Párrafos secundarios, pies de página, bordes sutiles. |
 | **Color de Acento** | **5% - 10%** (Llamativo) | Atrae la atención del usuario a elementos interactivos clave. | Botones de redes sociales, enlaces activos, hovers. |
+
+### 💡 Ejemplo de Aplicación Simple
+Aquí tienes un ejemplo de cómo se aplica esta regla con una paleta de solo 3 colores (Fondo blanco, Texto negro y Botones azules):
+*   **60% (Blanco):** El fondo de toda la página y el fondo de la tarjeta de presentación.
+*   **30% (Negro):** Todos los títulos (`h1`, `h2`) y todo el texto de los párrafos.
+*   **10% (Azul):** Solo los botones de "Contactar" y los enlaces del menú.
+
 ![Distribución de Colores (Regla 60-30-10)](../../img/distribucion_colores.jpg)
 
 ### 💡 Ejemplo con una Paleta Variada
