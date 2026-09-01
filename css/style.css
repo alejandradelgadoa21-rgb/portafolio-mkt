@@ -1,0 +1,68 @@
+/* ==========================================================================
+   1. RESET Y ESTILOS GENERALES
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Permite calcular bordes y paddings dentro del tamaño del elemento */
+}
+
+body {
+    font-family: 'Outfit', 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    /* Color de fondo de la página */
+
+    /* ESTRUCTURA DE CENTRADO (FLEXBOX) */
+    display: flex;
+    justify-content: center;
+    /* Centra la tarjeta horizontalmente */
+    align-items: center;
+    /* Centra la tarjeta verticalmente */
+
+    min-height: 100vh;
+    /* Fuerza al body a ocupar todo el alto de la pantalla visible */
+    padding: 20px;
+    /* Colchón de seguridad para que la tarjeta no choque en celulares */
+}
+
+/* ==========================================================================
+   2. CONTENEDOR CENTRAL RESPONSIVO (CARD)
+   ========================================================================== */
+.card {
+    background-color: #ffffff;
+
+    /* RESPONSIVIDAD */
+    width: 90%;
+    /* Ocupará el 90% de la pantalla en dispositivos móviles */
+    max-width: 600px;
+    /* En pantallas grandes, se detendrá y no medirá más de 600px */
+
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    /* Sombra suave para dar profundidad */
+    padding: 40px;
+    text-align: center;
+    /* Centra los textos que pongas dentro por defecto */
+}
+
+/* ==========================================================================
+   3. IMAGEN DE PERFIL (AVATAR CIRCULAR)
+   ========================================================================== */
+.avatar-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    /* Centra el contenedor y da espacio hacia abajo */
+    border-radius: 50%;
+    /* Convierte el contenedor en un círculo perfecto */
+    overflow: hidden;
+    /* Recorta la imagen para que se mantenga dentro del círculo */
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta y recorta la imagen proporcionalmente sin deformarla */
+}
