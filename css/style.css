@@ -15,8 +15,9 @@ body {
 
     /* ESTRUCTURA DE CENTRADO (FLEXBOX) */
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    /* Centra la tarjeta horizontalmente */
+
     align-items: flex-end;
     /* Centra la tarjeta verticalmente */
     gap: 20px;
