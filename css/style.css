@@ -15,10 +15,11 @@ body {
 
     /* ESTRUCTURA DE CENTRADO (FLEXBOX) */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     /* Centra la tarjeta horizontalmente */
-    align-items: center;
+    align-items: flex-end;
     /* Centra la tarjeta verticalmente */
+    gap: 20px;
 
     min-height: 100vh;
     /* Fuerza al body a ocupar todo el alto de la pantalla visible */
