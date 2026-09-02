@@ -14,7 +14,8 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: #edf2f7; /* Color de fondo suave de la pantalla (Gris azulado) */
+    background-color: #edf2f7;
+    /* Color de fondo suave de la pantalla (Gris azulado) */
     color: #1a202c;
     min-height: 100vh;
     display: flex;
@@ -27,12 +28,16 @@ body {
    2. CONTENEDOR TARJETA (CARD)
    -------------------------------------------------------------------------- */
 .card {
-    background-color: #ffffff; /* Fondo blanco de la tarjeta */
+    background-color: #ffffff;
+    /* Fondo blanco de la tarjeta */
     width: 100%;
-    max-width: 500px; /* Ancho máximo acorde a la imagen de muestra */
-    border-radius: 24px; /* Bordes bastante redondeados */
+    max-width: 500px;
+    /* Ancho máximo acorde a la imagen de muestra */
+    border-radius: 24px;
+    /* Bordes bastante redondeados */
     padding: 32px 36px 40px 36px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04); /* Sombra muy elegante y suave */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    /* Sombra muy elegante y suave */
     text-align: center;
 }
 
@@ -41,14 +46,17 @@ body {
    -------------------------------------------------------------------------- */
 .nav-menu {
     display: flex;
-    justify-content: flex-end; /* Alinea el menú a la derecha */
-    gap: 24px; /* Espacio entre las opciones */
+    justify-content: flex-end;
+    /* Alinea el menú a la derecha */
+    gap: 24px;
+    /* Espacio entre las opciones */
     margin-bottom: 24px;
 }
 
 .nav-link {
     text-decoration: none;
-    color: #4a5568; /* Color de texto secundario para opciones no activas */
+    color: #4a5568;
+    /* Color de texto secundario para opciones no activas */
     font-size: 15px;
     font-weight: 600;
     position: relative;
@@ -72,7 +80,8 @@ body {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #6366f1; /* Color azul/morado de la barrita inferior */
+    background-color: #6366f1;
+    /* Color azul/morado de la barrita inferior */
     border-radius: 2px;
 }
 
@@ -82,16 +91,19 @@ body {
 .avatar-container {
     width: 140px;
     height: 140px;
-    margin: 0 auto 24px auto; /* Centrado con margen inferior */
+    margin: 0 auto 24px auto;
+    /* Centrado con margen inferior */
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #e0e7ff; /* Anillo/Aro de luz azul suave alrededor de la foto */
-    overflow: hidden;
+    box-shadow: 0 0 0 12px #ff2d8d;
+        /* Anillo/Aro de luz rosado llamativo alrededor de la foto */
+        overflow: hidden;
 }
 
 .avatar-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la foto sin deformarla */
+    object-fit: cover;
+    /* Ajusta la foto sin deformarla */
 }
 
 /* --------------------------------------------------------------------------
@@ -105,7 +117,8 @@ body {
 .profile-name {
     font-size: 28px;
     font-weight: 700;
-    color: #0f172a; /* Azul marino muy oscuro, diferente al párrafo */
+    color: #0f172a;
+    /* Azul marino muy oscuro, diferente al párrafo */
     letter-spacing: -0.5px;
     margin-bottom: 6px;
 }
@@ -121,7 +134,8 @@ body {
 .divider {
     width: 36px;
     height: 3px;
-    background-color: #c7d2fe; /* Color lila/azul suave */
+    background-color: #c7d2fe;
+    /* Color lila/azul suave */
     border-radius: 3px;
     margin: 0 auto 20px auto;
 }
@@ -130,7 +144,8 @@ body {
 .profile-bio {
     font-size: 14px;
     line-height: 1.65;
-    color: #475569; /* Gris suave legible, distinto del título */
+    color: #475569;
+    /* Gris suave legible, distinto del título */
     max-width: 400px;
     margin: 0 auto 28px auto;
 }
@@ -154,10 +169,13 @@ body {
     gap: 12px;
     padding: 12px 20px;
     background-color: #ffffff;
-    border: 1.5px solid #c7d2fe; /* Borde de color suave */
-    border-radius: 12px; /* Esquinas redondeadas */
+    border: 1.5px solid #c7d2fe;
+    /* Borde de color suave */
+    border-radius: 12px;
+    /* Esquinas redondeadas */
     text-decoration: none;
-    color: #1e293b; /* Color del texto dentro del botón */
+    color: #1e293b;
+    /* Color del texto dentro del botón */
     font-size: 15px;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
@@ -165,10 +183,13 @@ body {
 
 /* Efecto al pasar el mouse por encima del botón */
 .btn-social:hover {
-    border-color: #6366f1; /* El borde se vuelve azul/morado vibrante */
+    border-color: #6366f1;
+    /* El borde se vuelve azul/morado vibrante */
     background-color: #faf5ff;
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.12); /* Sombra flotante */
-    transform: translateY(-2px); /* Eleva ligeramente el botón */
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.12);
+    /* Sombra flotante */
+    transform: translateY(-2px);
+    /* Eleva ligeramente el botón */
 }
 
 /* Estilos de los iconos dentro de los botones */
@@ -178,13 +199,16 @@ body {
 }
 
 .icon-instagram {
-    color: #833ab4; /* Color morado característico de Instagram */
+    color: #833ab4;
+    /* Color morado característico de Instagram */
 }
 
 .icon-linkedin {
-    color: #0a66c2; /* Color azul oficial de LinkedIn */
+    color: #0a66c2;
+    /* Color azul oficial de LinkedIn */
 }
 
 .icon-whatsapp {
-    color: #25d366; /* Color verde oficial de WhatsApp */
+    color: #25d366;
+    /* Color verde oficial de WhatsApp */
 }
