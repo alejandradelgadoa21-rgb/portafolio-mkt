@@ -10,16 +10,15 @@
 
 body {
     font-family: 'Outfit', 'Arial', sans-serif;
-    background-color: #f0f4f8;
-    /* Color de fondo de la página */
+    background-color: #ccffff
+        /* Color de fondo de la página */
 
-    /* ESTRUCTURA DE CENTRADO (FLEXBOX) */
-    display: flex;
+        /* ESTRUCTURA DE CENTRADO (FLEXBOX) */
+        display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-
-    align-items: flex-end;
-    /* Centra la tarjeta verticalmente */
+    justify-content: center;
+    align-items: center;
+    /* Centra la tarjeta horizontal y verticalmente */
     gap: 20px;
 
     min-height: 100vh;
