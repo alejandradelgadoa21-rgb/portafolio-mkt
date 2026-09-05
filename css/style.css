@@ -14,8 +14,8 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: #edf2f7;
-    /* Color de fondo suave de la pantalla (Gris azulado) */
+    background-color: #ffc0cb;
+    /* Color de fondo rosa suave de la página (Pink) */
     color: #1a202c;
     min-height: 100vh;
     display: flex;
@@ -28,9 +28,9 @@ body {
    2. CONTENEDOR TARJETA (CARD)
    -------------------------------------------------------------------------- */
 .card {
-    background-color:
-        /* Fondo blanco de la tarjeta */
-        width: 100%;
+    background-color: #ffffff;
+    /* Fondo blanco de la tarjeta */
+    width: 100%;
     max-width: 500px;
     /* Ancho máximo acorde a la imagen de muestra */
     border-radius: 24px;
@@ -211,16 +211,4 @@ body {
 .icon-whatsapp {
     color: #25d366;
     /* Color verde oficial de WhatsApp */
-}
-
-body {
-    font-family: 'Outfit', sans-serif;
-    background-color: #ffc0cb;
-    /* Color rosa (Pink) */
-    color: #1a202c;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
 }
