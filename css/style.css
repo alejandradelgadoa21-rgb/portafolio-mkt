@@ -28,7 +28,7 @@ body {
    2. CONTENEDOR TARJETA (CARD)
    -------------------------------------------------------------------------- */
 .card {
-    background-color: #ffffff;
+    background-color: lavender;
     /* Fondo blanco de la tarjeta */
     width: 100%;
     max-width: 500px;
@@ -95,8 +95,8 @@ body {
     /* Centrado con margen inferior */
     border-radius: 50%;
     box-shadow: 0 0 0 12px #ff2d8d;
-        /* Anillo/Aro de luz rosado llamativo alrededor de la foto */
-        overflow: hidden;
+    /* Anillo/Aro de luz rosado llamativo alrededor de la foto */
+    overflow: hidden;
 }
 
 .avatar-img {
