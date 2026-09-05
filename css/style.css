@@ -14,8 +14,8 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: #ffc0cb;
-    /* Color de fondo rosa suave de la página (Pink) */
+    background-color: #edf2f7;
+    /* Color de fondo suave de la pantalla (Gris azulado) */
     color: #1a202c;
     min-height: 100vh;
     display: flex;
@@ -28,8 +28,8 @@ body {
    2. CONTENEDOR TARJETA (CARD)
    -------------------------------------------------------------------------- */
 .card {
-    background-color: #ffffff;
-    /* Fondo blanco de la tarjeta */
+    background-color: #ffc0cb;
+    /* Fondo rosa de la tarjeta */
     width: 100%;
     max-width: 500px;
     /* Ancho máximo acorde a la imagen de muestra */
