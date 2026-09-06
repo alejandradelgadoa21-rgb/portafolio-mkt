@@ -17,7 +17,7 @@
 
     <!-- CONTENEDOR CENTRAL (TARJETA DE PORTAFOLIO) -->
     <main class="card">
-        
+
         <!-- 1. Menú de Navegación -->
         <nav class="nav-menu">
             <a href="index.html" class="nav-link">Inicio</a>
@@ -34,8 +34,13 @@
         <!-- 3. Línea Decorativa -->
         <div class="divider"></div>
 
-        <!-- 4. Formulario de Contacto -->
-        <form class="contact-form" action="#" method="POST">
+        <!-- 4. Formulario de Contacto (Con servicio gratuito FormSubmit) -->
+        <form class="contact-form" action="https://formsubmit.co/alejandradelgadoa21@gmail.com" method="POST">
+            <!-- Asunto del correo que recibirás -->
+            <input type="hidden" name="_subject" value="¡Nuevo mensaje desde tu Portafolio Web!">
+            <!-- Redirección opcional tras enviar -->
+            <input type="hidden" name="_captcha" value="false">
+
             <div class="form-group">
                 <label for="nombre" class="form-label">Tu Nombre</label>
                 <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ej. María Pérez" required>
@@ -43,16 +48,44 @@
 
             <div class="form-group">
                 <label for="email" class="form-label">Tu Correo Electrónico</label>
-                <input type="email" id="email" name="email" class="form-input" placeholder="ejemplo@correo.com" required>
+                <input type="email" id="email" name="email" class="form-input" placeholder="ejemplo@correo.com"
+                    required>
             </div>
 
             <div class="form-group">
                 <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí..."
+                    required></textarea>
             </div>
 
             <button type="submit" class="btn-submit">Enviar Mensaje</button>
         </form>
+
+        <!-- 5. Opciones Directas de Contacto -->
+        <div class="contact-direct">
+            <p class="contact-or-text">O también puedes contactarme directamente en:</p>
+            <div class="social-buttons">
+                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn-social">
+                    <svg class="icon icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                        </path>
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/alejad.18/" target="_blank" rel="noopener noreferrer"
+                    class="btn-social">
+                    <svg class="icon icon-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
 
     </main>
 

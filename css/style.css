@@ -332,3 +332,16 @@ body {
 .btn-submit:hover {
     background-color: #6366f1;
 }
+
+.contact-direct {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px dashed #c7d2fe;
+}
+
+.contact-or-text {
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
