@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Alejandra Delgado</title>
+    <!-- Vinculación del archivo CSS compartido -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Tipografía desde Google Fonts (Outfit) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CONTENEDOR CENTRAL (TARJETA DE PORTAFOLIO) -->
+    <main class="card">
+        
+        <!-- 1. Menú de Navegación -->
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="proyectos.html" class="nav-link">Proyectos</a>
+            <a href="contacto.html" class="nav-link active">Contacto</a>
+        </nav>
+
+        <!-- 2. Encabezado de la página de Contacto -->
+        <div class="profile-header">
+            <h1 class="profile-name">¡Hablemos!</h1>
+            <h2 class="profile-subtitle">Envíame un mensaje para trabajar juntos</h2>
+        </div>
+
+        <!-- 3. Línea Decorativa -->
+        <div class="divider"></div>
+
+        <!-- 4. Formulario de Contacto -->
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre" class="form-label">Tu Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ej. María Pérez" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Tu Correo Electrónico</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+        </form>
+
+    </main>
+
+</body>
+
+</html>
