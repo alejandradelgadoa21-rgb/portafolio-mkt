@@ -113,6 +113,36 @@ body {
     margin-bottom: 14px;
 }
 
+/* Encabezado especial para la página de Contacto con imagen al lado */
+.contact-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.contact-header-text {
+    text-align: left;
+}
+
+.contact-header-img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    flex-shrink: 0;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
 /* Nombre principal: Color oscuro y destacado (#0f172a) */
 .profile-name {
     font-size: 28px;
