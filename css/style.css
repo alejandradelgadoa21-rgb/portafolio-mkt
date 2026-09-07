@@ -216,10 +216,10 @@ body {
 
 /* Efecto al pasar el mouse por encima del botón */
 .btn-social:hover {
-    border-color: #6366f1;
+    border-color: #41418f;
     /* El borde se vuelve azul/morado vibrante */
     background-color: #faf5ff;
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.12);
+    box-shadow: 0 4px 12px rgba(22, 11, 224, 0.12);
     /* Sombra flotante */
     transform: translateY(-2px);
     /* Eleva ligeramente el botón */
