@@ -28,7 +28,7 @@ body {
    2. CONTENEDOR TARJETA (CARD)
    -------------------------------------------------------------------------- */
 .card {
-    background-color: #ffc0cb;
+    background-color: #faf4f4;
     /* Fondo rosa de la tarjeta */
     width: 100%;
     max-width: 500px;
@@ -297,7 +297,8 @@ body {
     color: #1e293b;
 }
 
-.form-input, .form-textarea {
+.form-input,
+.form-textarea {
     width: 100%;
     padding: 10px 14px;
     border: 1.5px solid #c7d2fe;
@@ -308,7 +309,8 @@ body {
     transition: border-color 0.2s ease;
 }
 
-.form-input:focus, .form-textarea:focus {
+.form-input:focus,
+.form-textarea:focus {
     border-color: #6366f1;
 }
 
