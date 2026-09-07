@@ -70,7 +70,7 @@ body {
 
 /* Opción activa (Inicio) con su barrita morada debajo */
 .nav-link.active {
-    color: #0f172a;
+    color: #25499c;
 }
 
 .nav-link.active::after {
@@ -117,7 +117,7 @@ body {
 .profile-name {
     font-size: 28px;
     font-weight: 700;
-    color: #0f172a;
+    color: #2689b1;
     /* Azul marino muy oscuro, diferente al párrafo */
     letter-spacing: -0.5px;
     margin-bottom: 6px;
@@ -127,7 +127,7 @@ body {
 .profile-subtitle {
     font-size: 15px;
     font-weight: 500;
-    color: #64748b;
+    color: #2689b1;
 }
 
 /* Línea decorativa pequeña debajo del subtítulo */
