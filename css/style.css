@@ -14,7 +14,8 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: #edf2f7;
+    background: #d9bee8;
+    background: linear-gradient(90deg, rgba(217, 190, 232, 0.5) 0%, rgba(242, 179, 235, 0.41) 87%, rgba(182, 109, 227, 0.62) 100%);
     /* Color de fondo suave de la pantalla (Gris azulado) */
     color: #1a202c;
     min-height: 100vh;
@@ -237,12 +238,12 @@ body {
 }
 
 .icon-linkedin {
-    color: #b71b93;
+    color: hsl(314, 54%, 60%);
     /* Color azul oficial de LinkedIn */
 }
 
 .icon-whatsapp {
-    color: #0c7eab;
+    color: #0db1e8;
     /* Color verde oficial de WhatsApp */
 }
 
