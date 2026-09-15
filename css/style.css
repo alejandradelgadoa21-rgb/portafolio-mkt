@@ -151,7 +151,7 @@ body {
 .profile-name {
     font-size: 28px;
     font-weight: 700;
-    color: #460972d9;
+    color: #8506a8d9;
     /* Azul marino muy oscuro, diferente al párrafo */
     letter-spacing: -0.5px;
     margin-bottom: 6px;
@@ -161,7 +161,7 @@ body {
 .profile-subtitle {
     font-size: 15px;
     font-weight: 500;
-    color: #820ea1;
+    color: #c22eeb;
 }
 
 /* Línea decorativa pequeña debajo del subtítulo */
