@@ -56,7 +56,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #4a5568;
+    color: #7b0b4ec7;
     /* Color de texto secundario para opciones no activas */
     font-size: 15px;
     font-weight: 600;
@@ -202,8 +202,8 @@ body {
     justify-content: center;
     gap: 12px;
     padding: 12px 20px;
-    background-color: #ffffff;
-    border: 1.5px solid #c7d2fe;
+    background-color: #ddafd9;
+    border: 1.5px solid #a032c1;
     /* Borde de color suave */
     border-radius: 12px;
     /* Esquinas redondeadas */
