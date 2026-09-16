@@ -185,12 +185,14 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   6. BOTONES PARA LOS ENLACES (REDES SOCIALES)
+   6. BOTONES PARA LOS ENLACES (REDES SOCIALES CUADRADOS CON ICONO)
    -------------------------------------------------------------------------- */
 .social-buttons {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
     max-width: 300px;
     margin: 0 auto;
     width: 100%;
@@ -200,36 +202,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    padding: 12px 20px;
+    width: 52px;
+    height: 52px;
     background-color: #ddafd9;
     border: 1.5px solid #a032c1;
-    /* Borde de color suave */
-    border-radius: 12px;
-    /* Esquinas redondeadas */
+    /* Borde de color suave y esquinas redondeadas tipo cuadrado moderno */
+    border-radius: 14px;
     text-decoration: none;
     color: #1e293b;
-    /* Color del texto dentro del botón */
-    font-size: 15px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Efecto al pasar el mouse por encima del botón */
 .btn-social:hover {
     border-color: #41418f;
-    /* El borde se vuelve azul/morado vibrante */
-    background-color: #faf5ff;
-    box-shadow: 0 4px 12px rgba(22, 11, 224, 0.12);
-    /* Sombra flotante */
-    transform: translateY(-2px);
-    /* Eleva ligeramente el botón */
+    background-color: #ffffff;
+    box-shadow: 0 6px 16px rgba(160, 50, 193, 0.25);
+    transform: translateY(-3px) scale(1.05);
 }
 
 /* Estilos de los iconos dentro de los botones */
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 .icon-instagram {
