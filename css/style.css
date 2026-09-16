@@ -98,6 +98,12 @@ body {
     box-shadow: 0 0 0 12px #ff2d8d;
     /* Anillo/Aro de luz rosado llamativo alrededor de la foto */
     overflow: hidden;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.avatar-container:hover {
+    transform: rotate(360deg) scale(1.05);
 }
 
 .avatar-img {
@@ -133,6 +139,12 @@ body {
     object-fit: contain;
     flex-shrink: 0;
     animation: float 3s ease-in-out infinite;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.contact-header-img:hover {
+    transform: rotate(360deg) scale(1.2);
 }
 
 @keyframes float {
@@ -394,11 +406,14 @@ body {
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-submit:active {
     background-color: #6366f1;
+    transform: translateY(-2px) rotate(360deg) scale(1.03);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
 }
 
 .contact-direct {
