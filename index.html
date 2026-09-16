@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio profesional de Alejandra Delgado Arancibia, estudiante de Marketing Digital apasionada por la innovación y la tecnología.">
+    <meta name="description"
+        content="Portafolio profesional de Alejandra Delgado Arancibia, estudiante de Marketing Digital apasionada por la innovación y la tecnología.">
     <title>Mi Portafolio - Alejandra Delgado</title>
     <!-- Vinculación del archivo CSS externo -->
     <link rel="stylesheet" href="css/style.css">
@@ -12,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -50,7 +52,8 @@
 
         <!-- 5. Botones de Redes Sociales (Iconos cuadrados) -->
         <div class="social-buttons" aria-label="Redes sociales">
-            <a href="https://www.instagram.com/alejad.18/" target="_blank" rel="noopener noreferrer" class="btn-social" aria-label="Instagram" title="Instagram">
+            <a href="https://www.instagram.com/alejad.18/" target="_blank" rel="noopener noreferrer" class="btn-social"
+                aria-label="Instagram" title="Instagram">
                 <!-- Icono Instagram SVG -->
                 <svg class="icon icon-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -60,7 +63,8 @@
                 </svg>
             </a>
 
-            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" class="btn-social" aria-label="LinkedIn" title="LinkedIn">
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" class="btn-social"
+                aria-label="LinkedIn" title="LinkedIn">
                 <!-- Icono LinkedIn SVG -->
                 <svg class="icon icon-linkedin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -70,7 +74,8 @@
                 </svg>
             </a>
 
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn-social" aria-label="WhatsApp" title="WhatsApp">
+            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn-social" aria-label="WhatsApp"
+                title="WhatsApp">
                 <!-- Icono WhatsApp SVG -->
                 <svg class="icon icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -82,7 +87,13 @@
         </div>
 
     </main>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, /* Duración de la animación en milisegundos */
+            once: true /* La animación ocurre solo una vez al hacer scroll */
+        });
+    </script>
 </body>
 
 </html>
