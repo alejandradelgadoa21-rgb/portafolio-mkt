@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ponte en contacto con Alejandra Delgado Arancibia para consultas, proyectos de marketing digital y colaboraciones.">
     <title>Contacto - Alejandra Delgado</title>
     <!-- Vinculación del archivo CSS compartido -->
     <link rel="stylesheet" href="css/style.css">
@@ -19,7 +20,7 @@
     <main class="card">
 
         <!-- 1. Menú de Navegación -->
-        <nav class="nav-menu">
+        <nav class="nav-menu" aria-label="Navegación principal">
             <a href="index.html" class="nav-link">Inicio</a>
             <a href="proyectos.html" class="nav-link">Proyectos</a>
             <a href="contacto.html" class="nav-link active">Contacto</a>
@@ -27,15 +28,15 @@
 
         <!-- 2. Encabezado de la página de Contacto -->
         <header class="contact-header-container">
-            <header class="contact-header-text">
-                <h1 class="profile-name">¡Hablemos Tu próxima idea comienza aquí</h1>
+            <div class="contact-header-text">
+                <h1 class="profile-name">¡Hablemos! Tu próxima idea comienza aquí</h1>
                 <h2 class="profile-subtitle">Una buena idea puede ser el comienzo de algo grande</h2>
-            </header>
-            <img src="img/logo contacto.webp" alt="logo contacto" class="contact-header-img">
+            </div>
+            <img src="img/logo contacto.webp" alt="Ilustración de contacto" class="contact-header-img">
         </header>
 
         <!-- 3. Línea Decorativa -->
-        <section class="divider"></section>
+        <div class="divider" role="separator"></div>
 
         <!-- 4. Formulario de Contacto (Con servicio gratuito FormSubmit) -->
         <form class="contact-form" action="https://formsubmit.co/alejandradelgadoa21@gmail.com" method="POST">
@@ -44,22 +45,22 @@
             <!-- Redirección opcional tras enviar -->
             <input type="hidden" name="_captcha" value="false">
 
-            <section class="form-group">
+            <div class="form-group">
                 <label for="nombre" class="form-label">Tu Nombre</label>
                 <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ej. María Pérez" required>
-            </section>
+            </div>
 
-            <section class="form-group">
+            <div class="form-group">
                 <label for="email" class="form-label">Tu Correo Electrónico</label>
                 <input type="email" id="email" name="email" class="form-input" placeholder="ejemplo@correo.com"
                     required>
-            </section>
+            </div>
 
-            <section class="form-group">
+            <div class="form-group">
                 <label for="mensaje" class="form-label">Mensaje</label>
                 <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí..."
                     required></textarea>
-            </section>
+            </div>
 
             <button type="submit" class="btn-submit">Enviar Mensaje</button>
         </form>
@@ -67,7 +68,7 @@
         <!-- 5. Opciones Directas de Contacto -->
         <section class="contact-direct">
             <p class="contact-or-text">O también puedes contactarme directamente en:</p>
-            <section class="social-buttons">
+            <div class="social-buttons" aria-label="Redes sociales">
                 <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn-social" aria-label="WhatsApp" title="WhatsApp">
                     <svg class="icon icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -94,7 +95,7 @@
                         <circle cx="4" cy="4" r="2"></circle>
                     </svg>
                 </a>
-            </section>
+            </div>
         </section>
 
     </main>
