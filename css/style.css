@@ -210,36 +210,73 @@ body {
     border-radius: 14px;
     text-decoration: none;
     color: #1e293b;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Efecto al pasar el mouse por encima del botón */
-.btn-social:hover {
-    border-color: #41418f;
-    background-color: #ffffff;
-    box-shadow: 0 6px 16px rgba(160, 50, 193, 0.25);
-    transform: translateY(-3px) scale(1.05);
+/* Efecto al pasar el mouse o tocar el botón: giro 360° sobre su eje */
+.btn-social:hover,
+.btn-social:active {
+    transform: translateY(-4px) scale(1.12) rotate(360deg);
 }
 
 /* Estilos de los iconos dentro de los botones */
 .icon {
     width: 24px;
     height: 24px;
+    transition: color 0.3s ease;
 }
 
 .icon-instagram {
     color: #e64d4db6;
-    /* Color morado característico de Instagram */
 }
 
 .icon-linkedin {
     color: hsl(314, 54%, 60%);
-    /* Color azul oficial de LinkedIn */
 }
 
 .icon-whatsapp {
     color: #0db1e8;
-    /* Color verde oficial de WhatsApp */
+}
+
+/* --- COLORES ORIGINALES DE CADA APLICACIÓN AL TOCAR / HOVER --- */
+
+/* Instagram: Gradiente oficial característico */
+.btn-social.btn-instagram:hover,
+.btn-social.btn-instagram:active {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-color: transparent;
+    box-shadow: 0 8px 20px rgba(220, 39, 67, 0.4);
+}
+
+.btn-social.btn-instagram:hover .icon-instagram,
+.btn-social.btn-instagram:active .icon-instagram {
+    color: #ffffff;
+}
+
+/* LinkedIn: Azul oficial de la marca (#0A66C2) */
+.btn-social.btn-linkedin:hover,
+.btn-social.btn-linkedin:active {
+    background-color: #0A66C2;
+    border-color: #0A66C2;
+    box-shadow: 0 8px 20px rgba(10, 102, 194, 0.4);
+}
+
+.btn-social.btn-linkedin:hover .icon-linkedin,
+.btn-social.btn-linkedin:active .icon-linkedin {
+    color: #ffffff;
+}
+
+/* WhatsApp: Verde oficial de la marca (#25D366) */
+.btn-social.btn-whatsapp:hover,
+.btn-social.btn-whatsapp:active {
+    background-color: #25D366;
+    border-color: #25D366;
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+}
+
+.btn-social.btn-whatsapp:hover .icon-whatsapp,
+.btn-social.btn-whatsapp:active .icon-whatsapp {
+    color: #ffffff;
 }
 
 /* --------------------------------------------------------------------------
