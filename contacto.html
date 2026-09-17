@@ -74,7 +74,7 @@
         <!-- 5. Opciones Directas de Contacto -->
         <section class="contact-direct">
             <p class="contact-or-text">O también puedes contactarme directamente en:</p>
-            <div class="social-buttons" aria-label="Redes sociales" data-aos="fade-up">
+            <div class="social-buttons" aria-label="Redes sociales">
                 <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn-social btn-whatsapp"
                     aria-label="WhatsApp" title="WhatsApp">
                     <svg class="icon icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -110,7 +110,8 @@
     <script>
         AOS.init({
             duration: 800, /* Duración de la animación en milisegundos */
-            once: true /* La animación ocurre solo una vez al hacer scroll */
+            once: true, /* La animación ocurre solo una vez al hacer scroll */
+            offset: 0 /* Asegura que la animación se active incluso al final de la página */
         });
     </script>
 </body>
